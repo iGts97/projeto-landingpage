@@ -1,0 +1,188 @@
+/* PROPRIEDADES DA PAGINA*/
+
+*{
+    margin: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+/*MENU SUPERIOR*/
+
+#menusuperior{
+    background-image: url(./imagens/backmenusuoerior.svg);
+    width: auto;
+    height: 500px;
+
+}
+#logo{
+    width: 125px;
+    height: 62px;
+    margin: 52px 0px 0px 56px;
+}
+#titulo-menusuperior{
+    color: white;
+   
+    /*FONTE*/
+    font-size: 40px;
+    font-weight: 400;
+   
+    /* LAYOUT */
+    width: 536px;
+    height: 102px;
+    margin: 71px 0px 0px 172px;
+    
+}
+#paragrafo-menusuperior{
+    color: white;
+    
+    /*FONTE*/
+    font-size: 20px;
+    font-weight: 400;
+
+    /* LAYOUT */
+    width: 536px;
+    height: 90px;
+    margin-top: 32px;
+    margin-left: 172px;
+
+}
+
+/* MENU INFORMATIVO*/
+
+#menuinformativo{
+    background-color: #EAECE5;
+    height: 170px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    /*FONTE PADRÃO*/
+    color: #122235;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icones-menuinformativo{
+    margin: 65px 16px 65px 120px;
+    
+}
+.texto-menuinformativo{
+    display: flex;
+    align-items: center;   
+}
+#secaodepoimentos{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#video{
+    margin: 80px 0px 80px 174px;
+    display: flex;
+}
+#h1video{
+    /*FONTE*/
+    color: #247BA0;
+    display: flex;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+    /*MARGEM*/
+    margin-top: 97px;
+    margin-left: -150px;
+    
+}
+#pvideo{
+    /*FONTE*/
+    color: #383838;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    /*MARGEM*/
+    
+    margin-left: -150px;
+}
+
+/* CARROSSEL*/
+#carrossel{
+    background-color: #247BA0;
+    height: 344px;
+    
+}
+#div-card{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+#texto-carrossel{
+    /*FONTE*/
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    /*MARGEM*/
+    padding: 30px;
+
+}
+/*CARDS*/
+.card{
+    margin: 0px 10px 0px 10px;
+}
+#bruna{
+    margin-left: 170px;
+}
+
+#samantha{
+    display: none;
+}
+#seta-esquerda{
+    display: none;
+    
+}
+/*SETAS*/
+.seta{
+    margin-top: 35%;
+    cursor: pointer;
+}    
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+#contato{
+    text-align: center;
+    margin-top: 25px;
+
+}
+#titulo-contato{
+    margin-bottom: 5px;
+}
+input{
+    width: 413px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: #EAECE5;
+    border-color: #EAECE5;
+    margin-top: 35px;
+    border: 0px;
+    padding-left: 15px;
+}
+button{
+    width: 335px;
+    height: 53px;
+    flex-shrink: 0;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border-radius: 8px;
+    background-color: #247BA0;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border:0px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #3aa3d0;
+    transform: translateY(-10px);
+    transition-duration: 0.7s;
+    box-shadow: 0px 15px 20px 0px #1a556e;
+}
